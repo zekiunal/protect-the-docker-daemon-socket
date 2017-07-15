@@ -156,7 +156,7 @@ docker ps
 
 ## Diğer modlar
 
-Tam iki yönlü kimlik doğrulama yapmak istemiyorsanız, paremetrelerde uyguladığınız değişik kombinasyonlarla Docker'ı çeşitli diğer modlarda çalıştırabilirsiniz.
+Tam iki yönlü kimlik doğrulama yapmak istemiyorsanız, paremetrelerde uyguladığınız değişik kombinasyonlarla Docker'ı diğer modlarda çalıştırabilirsiniz.
 
 ### Daemon modu
 
