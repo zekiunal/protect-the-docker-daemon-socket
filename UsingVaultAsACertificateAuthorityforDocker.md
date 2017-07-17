@@ -416,6 +416,15 @@ Harika!
 
 ## Sonuç
 
-Vault ile bu yol haritasını baz alarak Docker sunucuları ve istemcilerim için TLS'i aktif hale getirebildim. İşin aslı geldiğim bu nokta, bir çok eksiği ile birlikte yolun daha başına tekabul ediyor. Öncelikle Vault sunucunun kendisi, istemcileri ile güvenli bir iletişim kurmuyor, yüksek erişilebilirlik standartlarını karşılamıyor ve yeterli güvenlik rollerine sahip değil. Bu eksikliklerin tamamlanması bu aşama için bile çok önemli. PKI yönetiminden söz ediyorsam, Vault API aracılığı ile bu operasyonları otamasyona dahil etmeden önce, sertifikları güncelleme ve iptal etme operasyonlarını da tam anlamıyla yerine getirebilmeliyim. Belki günün sonunda sertifika yönetimini gözlemleyip, doğrulayabildiğim basit bir arayüze ihtiyaç duyabilirim. Şimdilik Ludwig Mies van der Rohe'e atıf yapıp, "Less is more" diyebilirim.
+Vault ile bu yol haritasını baz alarak Docker sunucuları ve istemcilerim için TLS'i aktif hale getirebildim. İşin aslı geldiğim bu nokta daha yolun başı ve bir çok eksik içeriyor. 
+
+Öncelikle Vault;
+* istemcileri ile güvenli bir iletişim kurmuyor,
+* yüksek erişilebilirlik standartlarını karşılamıyor ve 
+* yeterli güvenlik rollerine sahip değil. 
+
+Bu eksikliklerin tamamlanması bu aşama için bile çok önemli. Ayrıca PKI yönetiminden söz ediyorsam, sertifikları güncelleme ve iptal etme operasyonlarını da tam anlamıyla yerine getirebilmeliyim.
+
+Günün sonunda sertifika yönetimini gözlemleyip, doğrulayabildiğim basit bir arayüze ihtiyaç duyabilirim. Şimdilik Ludwig Mies van der Rohe'e atıf yapıp, "Less is more" diyorum.
 
 Sevgiler 
